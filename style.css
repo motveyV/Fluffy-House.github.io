@@ -277,7 +277,16 @@ footer {
   color: #999;
 }
 
-
+.photo_v102_202{
+    
+    display: flex;
+    flex-grow: 1;
+    margin-right: 20px;
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 50px;
+}
 
 .photo_v102_121 {
     transform-origin: left;
@@ -333,6 +342,11 @@ footer {
     transform: scale(1.05); 
 }
 
+@media (max-width: 1000px) {  
+    .container_ew {  
+        display: none;  
+    }  
+}
 
 @media screen and (max-width: 1280px) {
     div.contentblock {width: 1200px;}
